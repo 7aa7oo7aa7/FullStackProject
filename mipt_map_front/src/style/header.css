@@ -1,0 +1,50 @@
+@import "./font.css";
+
+.header {
+    border: 8px;
+    width: 100%;
+    margin-bottom: 40px;
+    background: #2579bd;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px;
+}
+
+.header_miptlogo {
+    height: 90px;
+    width: 90px;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header_text {
+    font-family: IBMPlexSans;
+    color: white;
+    font-size: 36px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header_right_invisible {
+    margin-left: auto;
+}
+
+.header_right_img {
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+    margin-right: 0%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header_right_text {
+    font-family: IBMPlexSans;
+    color: white;
+    font-size: 24px;
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}

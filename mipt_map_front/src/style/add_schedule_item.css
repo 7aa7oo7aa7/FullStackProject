@@ -1,0 +1,70 @@
+@import "./font.css";
+
+.add_schedule_item_box {
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px;
+    padding-bottom: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: 0px;
+}
+
+.add_schedule_item_box_header {
+    font-family: IBMPlexSans;
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.add_schedule_item_box_text {
+    font-family: IBMPlexSans;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.add_schedule_item_input {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 50%;
+    border: 1px solid #7f8c8d;
+    border-radius: 15px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.add_schedule_item_button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid #7f8c8d;
+    border-radius: 15px;
+    background-color: #2579bd;
+    font-family: IBMPlexSans;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.add_schedule_item_button:hover {
+    background-color: #1d5f96;
+    border: 1px solid gray;
+}
+
+.add_schedule_item_button:active {
+    background-color: #15446b;
+    border: 1px solid gray;
+}

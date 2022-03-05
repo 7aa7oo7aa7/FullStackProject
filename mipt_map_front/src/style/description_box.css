@@ -1,0 +1,26 @@
+@import "./font.css";
+
+.description_box {
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px;
+    width: 40%;
+    margin-left: 5%;
+    border: 0px;
+    background-color: white;
+}
+
+.description_box_header {
+    font-family: IBMPlexSans;
+    color: black;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.description_box_text {
+    font-family: IBMPlexSans;
+    color: #48423b;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 10px;
+}

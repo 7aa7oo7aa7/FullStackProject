@@ -1,0 +1,66 @@
+@import "./font.css";
+
+.schedule_item {
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 0px;
+    background-color: white;
+}
+
+.schedule_item_header {
+    font-family: IBMPlexSans;
+    color: black;
+    font-size: 24px;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+.schedule_item_text {
+    font-family: IBMPlexSans;
+    color: #48423b;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.schedule_item_group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.delete_button {
+    display: flex;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #7f8c8d;
+    border-radius: 10px;
+    background-color: #dd0e0e;
+    font-family: IBMPlexSans;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.delete_button:hover {
+    background-color: #a70b0b;
+    border: 1px solid gray;
+}
+
+.delete_button:active {
+    background-color: #750a0a;
+    border: 1px solid gray;
+}
+
+.schedule_header {
+    font-family: IBMPlexSans;
+    color: black;
+    font-size: 48px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'IBMPlexSans';
+    src: url('../fonts/IBMPlexSans-Bold.eot');
+    src: url('../fonts/IBMPlexSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/IBMPlexSans-Bold.woff2') format('woff2'),
+        url('../fonts/IBMPlexSans-Bold.woff') format('woff'),
+        url('../fonts/IBMPlexSans-Bold.ttf') format('truetype'),
+        url('../fonts/IBMPlexSans-Bold.svg#IBMPlexSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

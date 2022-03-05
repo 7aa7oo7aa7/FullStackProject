@@ -1,0 +1,19 @@
+@import "./font.css";
+
+.choose_item {
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px;
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid white;
+    background-color: white;
+    font-family: IBMPlexSans;
+    color: black;
+    font-size: 20px;
+}
+
+.choose_item:hover {
+    background-color: lightgray;
+    border: 1px solid gray;
+}
